@@ -1,0 +1,215 @@
+:root{
+    --primary-color: rgb(35, 162, 198);
+    --secondary-color: green;
+    --light-color: rgb(232, 226, 226);
+    --warning-color: yellow;
+    --hover-warning-color: rgb(207, 235, 145);
+}
+body{
+background-color: var(--primary-color);
+color: var(--light-color);
+font-family: Times, "Times New Roman", Georgia, serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 20px;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar{
+    background-color: var(--primary-color) !important;
+    box-shadow: 0px 0px 10px 1px black;
+    /* position: fixed; */
+
+    
+
+}
+.navbar a{
+    color:var(--light-color);
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    font-size: nowrap;
+    transition: 0.4s;
+    
+
+}
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar a:hover, .navbar .active, .active, .navbar .active:focus{
+    color: var(--secondary-color);
+    /* text-decoration: underline; */
+
+}
+
+.btn{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+   font-size: 13px;
+   font-family: Times, "Times New Roman", Georgia, serif;
+}
+.dropdown-menu
+{
+background-color: var(--primary-color);
+}
+#hero{
+    background-image: url(../image/black\ bulls.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    /* top: 50%;
+    left: 50%; */
+    font-size: 50px;
+    color: white;
+    /* transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%); */
+}
+#hero .hero-content{
+    height: 100vh;
+    flex-direction: column;
+}
+/* .list-socials{
+    list-style: none; */
+/* } */
+.hero-content p{
+    font-size: 20px;
+    letter-spacing:0cm;
+    color: var(--secondary-color) !important;
+    line-height: 1.3;
+    margin-right: auto;
+    text-align: justify;
+}
+.hero-content h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10rem;
+    color: var(--secondary-color);
+}
+
+.bio-discription{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+    text-align: justify;
+    color: var(--secondary-color);
+}
+.discription{
+    line-height: 1.8;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container h4{
+    color:var(--secondary-color);
+
+}
+
+#sevice-section{
+    padding-left: -7vw ;
+    /* border: solid red;*/
+    width :96% ;
+    position: relative;
+    top:-1%;
+    left:  1%;
+    background:#fafbfc;
+
+}
+.card{
+    color: var(--light-color);
+}
+.card h6{
+    color:rgb(35, 162, 198);
+}
+.card p{
+    color:aquamarine;
+}
+
+#about-section p{
+    color: var(--light-color);
+
+ }  
+
+ #about-section h4{
+                 color: var(--secondary-color);
+ }
+ .btn readmore-button{
+    background-color: var(--waring-color);
+    
+}
+.btn readmore-button:hover{
+    background-color: var(--hover-light-color);
+    color: var(--light-color);
+}
+
+#call-to-action {
+    background-image: url(../image/black.jpg);
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;
+    border: 2px solid var(--white-color);
+    margin: 3px 4px 3px 4px;
+    border-radius: 6px;
+    text-align: justify; 
+}
+
+.carousel-item{
+    width: 40%;
+    height: 60vh;
+    background-size:auto;
+    left: 25%;
+    scroll-timeline: 3s;
+}
+.carousel-caption h5{
+    text-decoration: double;
+    text-align: justify;
+    color: var(--secondary-color);
+    font-weight: bolder;
+    font-size: 30px;
+}
+.carousel-caption p{
+    text-decoration: double;
+    /* text-align: justify; */
+    color: var(--secondary-color);
+    /* font-size: 20px; */
+}
+
+#contact-us-section{
+    background-color:rgb(163, 230, 241);
+    color: var(--primary-color);
+    border-radius: 2px;
+    letter-spacing: 1;
+}
+.contact-us-section h4{
+    color:var(--secondary-color);
+}
+
+.container h5{
+    color:var(--secondary-color);
+}
+.details{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:var(--secondary-color);
+}
+
+
+
+.footer .list-social li {
+    margin-right: 20px;
+    display: inline-block;
+    font-size: 20px;
+}
+.footer .list-social li a {
+    color: var(--light-color);
+    
+}
+
+
